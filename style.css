@@ -58,6 +58,7 @@
 }
 
 
+
 @media screen  and (max-width:500px){
     .navbar-links{
         display: none;
@@ -92,6 +93,9 @@
         flex-direction: column;
         width: 100%;
     }
+    navbar-links.active{
+    left:0;
+}
 
     .navbar-links li{
         text-align: center;
